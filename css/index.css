@@ -8,10 +8,10 @@ body{
 }
 header{
     width: 121.2rem;
-    height: 9rem;
+    height: 12rem;
     margin: 1rem 2rem 0 2rem;
     padding: 0 0 0 0;
-    background-color:rgb(207, 216, 216);
+    background: #CBCBCB;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
 }
@@ -24,27 +24,28 @@ header{
 .C1{
     width: 2rem;
     height: 2rem;
-    background-color: #fcfcfc;
+    background: #F20707;
     margin: 3rem 1rem 0 3rem;
     border-radius: 5rem;
 }
 .C2{
     width: 2rem;
     height: 2rem;
-    background-color: #fcfcfc;
+    background: #D9B13B;
     margin: 3rem 1rem 0 0;
     border-radius: 5rem;
 }
 .C3{
     width: 2rem;
     height: 2rem;
-    background-color: #fcfcfc;
+    background-color: #085CA6;
+    ;
     margin: 3rem 2rem 0 0;
     border-radius: 5rem;
 }
 .C4{
     width: 100rem;
-    height: 4rem;
+    height: 6rem;
     background-color: #fcfcfc;
     margin: 3rem 4rem 0 0;
     border-radius: 0.5rem;
@@ -56,14 +57,24 @@ header{
     margin:0 2rem 0 2rem; 
     background-color: #464e5d;
 }
+.buscador img{
+    height: 4rem;
+    width: 4rem;
+    float: right;
+    margin: 1rem 2rem 0 0 ;
+}
 .B0{
     width: 11rem;
     height: 4rem;
-    background-color: #da364a;
-    border-radius: 0.4rem;
-    float: right;
-    margin: 1rem 7rem 0 0;
-
+    background: #DF4645;
+    border-radius: 1rem;
+    float:right;
+    margin: 1rem 3rem 0 0;
+}
+.B0 p{
+    font-size: 1.8rem;
+    color:white;
+    margin: 0.8rem 0 0 1.5rem;
 }
 
 aside{
@@ -97,6 +108,12 @@ aside{
     margin:2rem 0 0 0;
 
 }
+.T1 img{
+    width: 21rem;
+    height: 13rem;
+    border-radius: 0.6rem;
+    margin:1rem 0.5rem 0.5rem 1rem;
+}
 .T1_1{
     width: 5rem;
     border-top: 2rem solid transparent;
@@ -116,6 +133,12 @@ aside{
     background-color: #cccccc;
     border-radius: 0.6rem;
     margin: 2rem 0 0 0;
+}
+.T2 img{
+    width: 21rem;
+    height: 13rem;
+    border-radius: 0.6rem;
+    margin:1rem 0.5rem 0.5rem 1rem;
 }
 .T2_2{
     width: 5rem;
@@ -138,6 +161,12 @@ aside{
     margin:  2rem 0 0 0;
     
 }
+.T3 img{
+    width: 21rem;
+    height: 11rem;
+    border-radius: 0.6rem;
+    margin:2rem 0.5rem 0.5rem 1rem;
+}
 .T3_3{
     width: 5rem;
     border-top: 2rem solid transparent;
@@ -159,6 +188,12 @@ aside{
     border-radius: 0.6rem;
     margin:  2rem 0 0 0;
 }
+.T4 img{
+    width: 21rem;
+    height: 13rem;
+    border-radius: 0.6rem;
+    margin:1rem 0.5rem 0.5rem 1rem;
+}
 .T4_4{
     width: 5rem;
     border-top: 2rem solid transparent;
@@ -172,6 +207,13 @@ aside{
     background-color: #bfbfbf;
     border-radius: 0.6rem;
     margin: 4rem 0 0 2rem;
+    overflow: hidden;
+}
+.T5 img{
+    width: 28rem;
+    height: 26rem;
+    margin: 0 0 0 0 ;
+    object-fit: cover;
 }
 .fondo1{
     width: 85.2rem;
@@ -191,12 +233,24 @@ aside{
       flex-direction: row;
       align-items:flex-end;
 }
+.D1 img{
+    width: 82.6rem;
+    height: 43rem
+}
 .B1{
     width: 60rem;
     height: 3.5rem;
-    background-color: #8c8c8c;
-    border-radius: 0.5rem;
+    background-color: #464E5D;
+    border-radius: 2rem;
     margin: 0 0 3rem 3rem;
+    position: absolute;
+    opacity: 60%;
+}
+.playlist{
+    color: white ;
+    font-size: 2rem;
+    position: absolute;
+    margin: 0 0 3.5rem 6rem;
 }
 .fondo2{
     width: 85.2rem;
@@ -216,6 +270,25 @@ aside{
     background-color: #cccccc;
     margin: 0 0 0 2rem;
     border-radius: 1rem;
+    padding: 0 0 0rem 0;
+}
+.D2 img{
+    width: 26rem;
+    height: 20rem
+    
+}
+.coment1{
+    width: 13rem;
+    height: 4rem;
+    background-color: #313131;
+    margin: 0 2rem 0 0;
+    border-radius: 1rem;
+    float: right;
+}
+.coment1 p{
+    color: #cccccc;
+    font-size: 3rem;
+    margin: 0 0 0 3rem;
 }
 .D3{
     width: 26.5rem;
@@ -224,12 +297,35 @@ aside{
     margin: 0 0 0 2rem;
     border-radius: 1rem;
 }
+.D3 img{
+    width: 18rem;
+    height: 19rem;
+    margin: 1rem 0 0 4rem;
+}
+.coment2{
+    width: 13rem;
+    height: 4rem;
+    background-color: #313131;
+    margin: 0.5rem 1.5rem 0 0;
+    border-radius: 1rem;
+    float: right;
+}
+.coment2 p{
+    color: #cccccc;
+    font-size: 2.7rem;
+    margin: 0.2rem 0 0 2rem;
+}
 .D4{
     width: 26.5rem;
     height: 27rem;
     background-color: #cccccc;
     margin: 0 0 0 2rem;
     border-radius: 1rem;
+}
+.D4 img{
+    width: 21rem;
+    height: 20rem;
+    margin: 2rem 0 0 2.5rem;
 }
 .fondo3{
     width: 85.2rem;
@@ -249,6 +345,24 @@ aside{
     background-color: #cccccc;
     margin: 0 0 0 2rem;
     border-radius: 1rem;
+    padding: 0 0 0 0 ;
+}
+.D5 img{
+    width: 25rem;
+    margin: 5.5rem 0 0 0.5rem;
+}
+.coment3{
+    width: 13rem;
+    height: 4rem;
+    background-color: #313131;
+    border-radius: 1rem;
+    float: right;
+    margin: 2rem 2rem 0 0;
+}
+.coment3 p{
+    color: #cccccc;
+    font-size: 2.7rem;
+    margin: 0.5rem 0 0 4rem;
 }
 .D6{
     width: 26.5rem;
@@ -257,12 +371,48 @@ aside{
     margin: 0 0 0 2rem;
     border-radius: 1rem;
 }
+.D6 img{
+    height: 19rem;
+    margin: 3rem 0 0 3.5rem;
+}
+.coment4{
+    width: 12rem;
+    height: 3.5rem;
+    background-color: #313131;
+    border-radius: 1rem;
+    float: right;
+    /*margin: 0 0 3rem 12rem;*/
+    position: absolute;
+    /* transform: translate(izquierda a derecha, arriba a abajo(positivos)*/
+    transform: translate(12rem, -1rem);
+    color: white;
+    font-size: 2.2rem;
+    padding: 0.5rem 0 0 1.5rem ;
+}
 .D7{
     width: 26.5rem;
     height: 27rem;
     background-color: #cccccc;
     margin: 0 0 0 2rem;
     border-radius: 1rem;
+}
+.D7 img{
+    width:19rem ;
+    margin: 2rem 0 0 4rem ;
+}
+.coment5{
+    width: 8rem;
+    height: 3.5rem;
+    background-color: #313131;
+    border-radius: 1rem;
+    float: right;
+    /*margin: 0 0 3rem 12rem;*/
+    position: absolute;
+    /* transform: translate(izquierda a derecha, arriba a abajo(positivos)*/
+    transform: translate(12rem, -2rem);
+    color: white;
+    font-size: 2.2rem;
+    padding: 0.5rem 0 0 5rem ;
 }
 .fondo4{
     width: 85.5rem;
@@ -278,10 +428,23 @@ aside{
 }
 .D8{
     width: 23rem;
-    height: 17rem;
+    height: 19rem;
     background-color: #cccccc;
     margin: 0 0 0 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
+}
+.D8 img{
+    width: 23rem;
+    height: 19rem;
+    box-shadow: 0 1rem 1rem 0 rgb(182, 182, 182);
+    border-radius: 2rem;
+}
+.cajaparrafo{
+    margin: 0 0 0 2rem;
+}
+.parrafo{
+    font-size: 2.3rem;
+    color: #353535;
 }
 .B2{
     width: 50rem;
